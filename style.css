@@ -1,0 +1,270 @@
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+#target {
+    width: 345px;
+}
+div#location, div#price {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: calibri;
+}
+div#price {
+    font-size: 20px;
+    line-height: 28px;
+}
+.gm-style-iw {
+    overflow: hidden !important; 
+    line-height: 1.35;
+    white-space: nowrap;
+ }
+
+ div.info {
+    position: absolute;
+    z-index: 999;
+    width: 200px;
+    height: 100px;
+    display: none;
+    background-color: #fff;
+    border: 3px solid #ebebeb;
+    padding: 10px;
+}
+
+
+.myclass {
+    background: red !important;
+    border: solid 1px red !important;
+}
+.gm-style-iw > div:nth-child(1) {    
+    display: none !important;
+}
+
+.gm-style-iw:parent { background: none !important; }
+.gm-style-iw div:parent { background: none !important; }
+
+.gm-style-iw + div {display: none !important;}
+
+
+button.gm-ui-hover-effect {
+    display: none !important;
+}
+.infoBubble{
+    background-image:url(images/info_details.svg);
+    width:80px !important;
+    height:73px !important;
+}
+.infoBubbleDetail {
+    background-image:url(images/info_details.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    width: 260px !important;
+    height: 180px !important; 
+    /* -webkit-filter: drop-shadow( 3px 3px 2px rgba(0,0,0,.7) );
+          filter: drop-shadow( 3px 3px 2px rgba(0,0,0,.7) ); */
+}
+#fromlocation {
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    padding: 16px 34px;
+    font-weight: bold;
+}
+#tolocation {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    padding: 16px 34px;
+    font-weight: bold;
+}
+
+div#depdate {
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    padding: 10px 15px;
+}
+div#retdate {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    padding: 10px 5px;
+}
+div#detailprice {
+    clear: both;
+    font-size: 26px !important;
+    color: #fff;
+    font-weight: bold;
+    padding: 13px 40px;
+    float: left;
+}
+img.airicon {
+    float: right;
+    padding: 20px 35px;
+}
+#airlines {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+#totalprice {
+    font-size: 26px;
+    color: #fff;
+    float: left;
+    padding: 13px 34px;
+    font-weight: bold;
+}
+.small, small {
+    font-size: 72%;
+    font-weight: 400;
+    margin-left: 5px;
+}
+#fromtodate {
+    font-size: 21px;
+    color: #fff;
+    float: left;
+    padding: 10px 34px;
+    font-weight: bold;
+}
+.display-none {
+    display: none;
+}
+#airlinescode {
+    float: right;
+    color: #313c44;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 8px;
+    position: relative;
+    top: 8px;
+}
+
+
+
+
+
+
+
+
+
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
+{
+    /* we have to use !important because we are overwritng inline styles */
+    background-color: transparent !important;
+    box-shadow: none !important;
+    width: auto !important;
+    height: auto !important;
+    display: none !important;
+}
+
+/* arrow colour */
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div
+{
+    
+    display: none !important;
+    box-shadow: none !important;
+
+}
+
+/* close button */
+.gm-style > div:first-child > div + div > div:last-child > div > div:last-child
+{
+    margin-right: 5px;
+    margin-top: 5px;
+    
+}
+
+/* image icon inside close button */
+.gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img
+{
+    display: none !important;
+}
+
+/* positioning of infowindow */
+.gm-style-iw
+{
+    top: 22px !important;
+    left: 22px !important;
+    display: none !important;
+}
